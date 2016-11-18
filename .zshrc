@@ -36,11 +36,28 @@ alias sshcopy="pbcopy < ~/.ssh/id_rsa.pub"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
+alias cd..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+
+
+# mv, rm, cp
+alias mv='mv -v'
+alias rm='rm -i -v'
+alias cp='cp -v'
+
+
+# Cask Brue
+alias cask='brew cask' # i <3 u cask
+alias where=which # sometimes i forget
+alias brwe=brew  #typos
+
+
+# Open
+alias hosts='sudo atom /etc/hosts'
 
 
 # Shortcuts
