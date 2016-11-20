@@ -10,6 +10,10 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 
+# Install Quick Look Plugins: https://github.com/sindresorhus/quick-look-plugins
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+
+
 # Mac App Store Software — mas list
 409789998 Twitter (4.2.4)
 585829637 Todoist (6.3.17)
