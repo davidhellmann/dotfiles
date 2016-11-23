@@ -208,7 +208,7 @@ brew cask install sketch-toolbox
 brew cask install sketchbook
 brew cask install slack
 brew cask install spotify
-brew cask install sublime-text3
+brew cask install sublime-text
 brew cask install superduper
 brew cask install suspicious-package
 brew cask install the-hit-list
