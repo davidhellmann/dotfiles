@@ -124,10 +124,12 @@ mas install 409183694
 # Mamp Pro
 # Invison Craft Manager
 # Renamer
+# ForkLift Beta
 
 # ------------------------------------------------------------------------------
 
 # Cask Apps
+cask install adobe-creative-cloud
 cask install alfred
 cask install carbon-copy-cloner
 cask install dropbox
