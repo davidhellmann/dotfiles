@@ -74,6 +74,7 @@ brew tap caskroom/fonts
 
 brew cask install font-inconsolata
 brew cask install font-roboto
+brew cask install font-roboto-mono
 brew cask install font-menlo-for-powerline
 brew cask install font-fira-mono-for-powerline
 brew cask install font-open-sans
