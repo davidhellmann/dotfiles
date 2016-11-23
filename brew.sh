@@ -69,6 +69,19 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 
 # ------------------------------------------------------------------------------
 
+# you only have to do this once!
+brew tap caskroom/fonts
+
+brew cask install font-inconsolata
+brew cask install font-roboto
+brew cask install font-menlo-for-powerline
+brew cask install font-fira-mono-for-powerline
+brew cask install font-open-sans
+brew cask install font-open-sans-condensed
+brew cask install font-fira-sans
+
+# ------------------------------------------------------------------------------
+
 # Mac App Store Software — mas list
 # Reeder (3.0.1)
 mas install 880001334
