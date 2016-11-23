@@ -5,10 +5,62 @@
 # Ask for the administrator password upfront.
 sudo -v
 
-# ------------------------------------------------------------------------------
 
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+# ------------------------------------------------------------------------------
+
+# Make sure we’re using the latest Homebrew.
+brew update
+
+# Upgrade any already-installed formulae.
+brew upgrade
+
+# ------------------------------------------------------------------------------
+
+# Install Cask Room https://caskroom.github.io/
+brew tap caskroom/cask
+
+# install yarn
+brew install yarn
+
+# Install Node.js. Note: this installs `npm` too, using the recommended
+# installation method.
+brew install node
+
+# Install zsh
+brew install zsh
+
+# Install `wget` with IRI support.
+brew install wget --with-iri
+
+# ------------------------------------------------------------------------------
+
+# dh Boilerplate
+npm install -g generator-dhboilerplate
+
+# eslint Stuff
+npm i -g eslint eslint-config-airbnb eslint-plugin-import eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-vue eslint-plugin-vue eslint-plugin-html eslint-plugin-import babel-eslint eslint-config-airbnb-base
+
+# Gulp
+npm i -g gulp
+
+# Yeoman
+npm i -g yo
+
+# Grunt
+npm install -g grunt-cli
+
+# WP-CLI https://wp-cli.org/#installing
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+
+# Next, check if it is working:
+php wp-cli.phar --info
+
+# To use WP-CLI from the command line by typing wp, make the file executable and move it to somewhere in your PATH. For example:
+chmod +x wp-cli.phar
+sudo mv wp-cli.phar /usr/local/bin/wp
 
 # ------------------------------------------------------------------------------
 
@@ -38,9 +90,6 @@ mas install 435003921
 
 # Todoist (6.3.17)
 mas install 585829637
-
-# Dash (3.3.1)
-mas install 449589707
 
 # Sip (4.4.1)
 mas install 507257563
@@ -117,7 +166,6 @@ mas install 1091189122
 # Keynote (7.0.5)
 mas install 409183694
 
-
 # ------------------------------------------------------------------------------
 
 # Sonstige Apps
@@ -129,34 +177,40 @@ mas install 409183694
 # ------------------------------------------------------------------------------
 
 # Cask Apps
-cask install adobe-creative-cloud
-cask install alfred
-cask install carbon-copy-cloner
-cask install dropbox
-cask install archiver
-cask install appdelete
-cask install daisydisk
-cask install dynamite
-cask install firefox
-cask install google-chrome
-cask install flux
-cask install fontexplorer-x-pro
-cask install rightfont
-cask install forklift
-cask install franz
-cask install geekbench
-cask install grandtotal
-cask install iconjar
-cask install imageoptim
-cask install iterm2
-cask install kaleidoscope
-cask install phpstorm
-cask install pngyu
-cask install sequel-pro
-cask install sketch-toolbox
-cask install sketchbook
-cask install superduper
-cask install suspicious-package
-cask install the-hit-list
-cask install things
-cask install tower
+brew cask install adobe-creative-cloud
+brew cask install alfred
+brew cask install atom
+brew cask install carbon-copy-cloner
+brew cask install dropbox
+brew cask install archiver
+brew cask install appdelete
+brew cask install daisydisk
+brew cask install dash
+brew cask install dynamite
+brew cask install firefox
+brew cask install google-chrome
+brew cask install flux
+brew cask install fontexplorer-x-pro
+brew cask install rightfont
+brew cask install forklift
+brew cask install franz
+brew cask install geekbench
+brew cask install grandtotal
+brew cask install iconjar
+brew cask install imageoptim
+brew cask install iterm2
+brew cask install kaleidoscope
+brew cask install phpstorm
+brew cask install pngyu
+brew cask install sequel-pro
+brew cask install skype
+brew cask install sketch-toolbox
+brew cask install sketchbook
+brew cask install slack
+brew cask install spotify
+brew cask install sublime-text3
+brew cask install superduper
+brew cask install suspicious-package
+brew cask install the-hit-list
+brew cask install things
+brew cask install tower
