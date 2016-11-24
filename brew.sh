@@ -35,6 +35,9 @@ brew install zsh
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+# Install MAS CLI
+brew install mas
+
 # ------------------------------------------------------------------------------
 
 # dh Boilerplate
@@ -84,6 +87,8 @@ brew cask install font-fira-sans
 # ------------------------------------------------------------------------------
 
 # Mac App Store Software — mas list
+mas signin
+
 # Reeder (3.0.1)
 mas install 880001334
 
