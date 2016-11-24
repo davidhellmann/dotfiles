@@ -87,7 +87,7 @@ brew cask install font-fira-sans
 # ------------------------------------------------------------------------------
 
 # Mac App Store Software — mas list
-mas signin
+mas signin davidhellmann.com@gmail.com
 
 # Reeder (3.0.1)
 mas install 880001334
