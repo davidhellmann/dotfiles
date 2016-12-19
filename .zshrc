@@ -57,7 +57,7 @@ alias brwe=brew  #typos
 
 
 # Open
-alias hosts='sudo atom /etc/hosts'
+alias hosts='sudo code /etc/hosts'
 
 
 # Shortcuts
