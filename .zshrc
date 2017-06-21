@@ -35,6 +35,10 @@ source $ZSH/oh-my-zsh.sh
 alias sshcopy="pbcopy < ~/.ssh/id_rsa.pub"
 
 
+# Custom Aliase
+alias module="yo dhboilerplate:module"
+
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias cd..="cd .."
