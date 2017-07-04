@@ -36,7 +36,7 @@ alias sshcopy="pbcopy < ~/.ssh/id_rsa.pub"
 
 
 # Custom Aliase
-alias module="yo dhboilerplate:module"
+alias module="yo baukasten:module"
 
 
 # Easier navigation: .., ..., ...., ....., ~ and -
