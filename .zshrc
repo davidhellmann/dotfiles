@@ -156,3 +156,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Yarn Dir
 export PATH="$HOME/.yarn/bin:$PATH"
+
+
+# Composer Dir
+export PATH="$PATH:$HOME/.composer/vendor/bin"
