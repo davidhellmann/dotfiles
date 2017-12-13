@@ -41,7 +41,7 @@ brew install mas
 # ------------------------------------------------------------------------------
 
 # dh Boilerplate
-npm install -g generator-dhboilerplate
+npm install -g generator-baukasten
 
 # eslint Stuff
 npm i -g eslint eslint-config-airbnb eslint-plugin-import eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-vue eslint-plugin-vue eslint-plugin-html eslint-plugin-import babel-eslint eslint-config-airbnb-base
@@ -92,38 +92,14 @@ mas signin davidhellmann.com@gmail.com
 # Reeder (3.0.1)
 mas install 880001334
 
-# Tumblr (1.0.1)
-mas install 929285034
-
-# Day One Classic (1.10.6)
-mas install 422304217
-
 # Blackmagic Disk Speed Test (3.0)
-mas install 425264550
-
-# Pixelmator (3.6)
-mas install 407963104
-
-# Fantastical (1.3.18)
-mas install 435003921
-
-# Todoist (6.3.17)
-mas install 585829637
+mas install 42526455
 
 # Sip (4.4.1)
 mas install 507257563
 
-# Tublme (1.2)
-mas install 718420386
-
-# Ulysses (2.6)
-mas install 623795237
-
 # Tweetbot (2.4.4)
 mas install 557168941
-
-# CloudApp (4.1.1)
-mas install 417602904
 
 # Deliveries (2.1.2)
 mas install 924726344
@@ -148,9 +124,6 @@ mas install 408981381
 
 # Twitter (4.2.4)
 mas install 409789998
-
-# Frank DeLoupe (1.2.1)
-mas install 530458789
 
 # MiStat (1.3)
 mas install 412573724
@@ -208,7 +181,6 @@ brew cask install dash
 brew cask install dynamite
 brew cask install firefox
 brew cask install google-chrome
-brew cask install flux
 brew cask install fontexplorer-x-pro
 brew cask install rightfont
 brew cask install forklift
@@ -230,6 +202,5 @@ brew cask install spotify
 brew cask install sublime-text
 brew cask install superduper
 brew cask install suspicious-package
-brew cask install the-hit-list
 brew cask install things
 brew cask install tower
