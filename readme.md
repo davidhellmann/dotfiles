@@ -1,19 +1,14 @@
 # Install a new Mac
 
-# ------------------------------------------------------------------------------
-1. Install this stuff by hand
-# ------------------------------------------------------------------------------
+## Install this stuff by hand
 
-# Install X Code Tools
-xcode-select --install
+### Install X Code Tools
+`xcode-select --install`
 
-# Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+### Install Homebrew
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-# ------------------------------------------------------------------------------
-2. Check and exec .macos.sh
-# ------------------------------------------------------------------------------
+### Check and exec .macos.sh
 
-# ------------------------------------------------------------------------------
-3. Check and exec brew.sh
-# ------------------------------------------------------------------------------
+### Check and exec brew.sh
+
